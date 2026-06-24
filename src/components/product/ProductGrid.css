@@ -1,0 +1,36 @@
+.products-wrapper {
+  width: 100%;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.center-product {
+  width: 50%;
+  margin: 20px auto 0;
+}
+
+.center-product .product-card {
+  width: 100%;
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  .center-product {
+    width: 70%;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .products-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .center-product {
+    width: 100%;
+  }
+}
