@@ -67,8 +67,6 @@ export const products = [
   name: "Wyze Duo Cam Doorbell",
   description: "Two cameras. Two views. Double the porch protection.",
   price: 69.98,
-  // oldPrice: 89.98,
-  // discount: 22,
   image: cam4,
   
 },
