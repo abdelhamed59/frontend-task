@@ -93,14 +93,14 @@
   text-align: right;
 }
 
-.old-price {
+.review-price .old-price {
   display: block;
   color: #9ca3af;
   font-size: 13px;
   text-decoration: line-through;
 }
 
-.new-price {
+.review-price .new-price {
   color: #5b3df5;
   font-size: 18px;
   font-weight: 700;
