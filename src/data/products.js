@@ -79,7 +79,7 @@ name: "Wyze Battery Cam Pro",
   category: "cameras",
   description: "2K floodlight camera with a 160° wide-angle view for your garage",
   price: 69.98,
-  oldPrice: "$89.98",
+  oldPrice: 89.98,
   discount: 22,
   image: cam5,
   variants: [
